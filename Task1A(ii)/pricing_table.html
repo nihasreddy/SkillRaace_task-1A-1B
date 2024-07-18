@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Pricing Table</title>
+
+    <link rel="icon" href="./logo.png" type="image/x-icon">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--Custom CSS-->
+    <link href="styles.css" rel="stylesheet">
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="./logo_with_bg.jpg" alt="LOGO" style="height: 40px; margin-left: 2rem; width: 40px; margin-top: 1rem; border-radius: 100px;">
+            </a>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="container py-5 content">
+            <div class="row">
+                <h3 class="header-title text-white text-center text-uppercase py-4"><b>Pricing Table</b></h3>
+            </div>
+            <!--Table-->
+            <div class="row">
+                <!--1-->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-uppercase text-muted">Start Up</h5>
+                            <h6 class="card-price text-center">$200</h6>
+                        </div>
+                        <hr>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Upto 5 Pages</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>1 Free Domain</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>1GB Hosting</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Free SSL(Security)</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times text-danger"></i></span>SEO Optimized</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times text-danger"></i></span>Free Subdomain</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times text-danger"></i></span>Monthly Status Reports</li>
+                        </ul>
+                        <div class="d-grid">
+                            <a href="#" class="btn btn-primary text-uppercase">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <!--2-->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-uppercase text-muted">Small Business</h5>
+                            <h6 class="card-price text-center">$300</h6>
+                        </div>
+                        <hr>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Upto 5 Pages</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>1 Free Domain</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>1GB Hosting</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Free SSL(Security)</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>SEO Optimized</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times text-danger"></i></span>Free Subdomain</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times text-danger"></i></span>Monthly Status Reports</li>
+                        </ul>
+                        <div class="d-grid">
+                            <a href="#" class="btn btn-primary text-uppercase">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <!--3-->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-uppercase text-muted">Corporate</h5>
+                            <h6 class="card-price text-center">$400</h6>
+                        </div>
+                        <hr>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Upto 5 Pages</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>1 Free Domain</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>1GB Hosting</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Free SSL(Security)</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>SEO Optimized</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Free Subdomain</li>
+                            <li class="text-muted"><span class="fa-li"><i class="fas fa-times text-danger"></i></span>Monthly Status Reports</li>
+                        </ul>
+                        <div class="d-grid">
+                            <a href="#" class="btn btn-primary text-uppercase">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <!--4-->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-uppercase text-muted">Customization</h5>
+                            <h6 class="card-price text-center">$500</h6>
+                        </div>
+                        <hr>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Upto 5 Pages</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>1 Free Domain</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>1GB Hosting</li>
+                            <li><span class="fa-li"><i class="fas fa-check text-success"></i></span>Free SSL(Security)</li>
+                            <li ><span class="fa-li"><i class="fas fa-check text-success"></i></span>SEO Optimized</li>
+                            <li ><span class="fa-li"><i class="fas fa-check text-success"></i></span>Free Subdomain</li>
+                            <li ><span class="fa-li"><i class="fas fa-check text-success"></i></span>Monthly Status Reports</li>
+                        </ul>
+                        <div class="d-grid">
+                            <a href="#" class="btn btn-primary text-uppercase">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer py-3">
+            <div class="container text-center">
+                <span class="text-muted">© 2025 My Company. All rights reserved.</span>
+            </div>
+        </footer>
+    </div>
+
+    <!--Bootstrap JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+    <!--Fontawesome JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+</body>
+</html>
